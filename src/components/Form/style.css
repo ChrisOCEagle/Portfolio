@@ -1,0 +1,20 @@
+.contact-form {
+    width: 60%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.form-group {
+    padding: 20px;
+    width: 80%;
+    align-self: center;
+}
+
+#form-control {
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,38 @@
+#summary {
+    width: 100%;
+}
+
+#about-section {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+#image-background-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px 5px 50px;
+}
+
+#skills-section {
+    padding: 5px 50px;
+}
+
+#portfolio-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
