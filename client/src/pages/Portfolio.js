@@ -62,7 +62,7 @@ const projects = [
     {
         src: Sources["burger"],
         alt: 'Burger App',
-        link: 'https://boiling-harbor-19313.herokuapp.com/',
+        link: 'https://burger-app--cdoc.herokuapp.com/',
         id: 'burger-app',
         github: 'https://github.com/ChrisOCEagle/burger',
     },
