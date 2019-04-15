@@ -2,4 +2,5 @@ nav {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    padding: 15px 25px;
 }

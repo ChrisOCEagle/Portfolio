@@ -1,4 +1,5 @@
 import React, { Component }  from 'react';
+// import Particles from 'react-particles-js';
 import Navbar from '../components/Navbar';
 import Jumbotron from '../components/Jumbotron';
 import Header from '../components/Header';
@@ -12,10 +13,47 @@ class Index extends Component {
     render() {
         return(
             <div className="index">
+                {/* <Particles
+                    params={{
+                        polygon: {
+                            enable: true,
+                            type: 'inside',
+                            move: {
+                                radius: 10
+                            },
+                            url: 'https://placeholder.pics/svg/100x100/888888/My%20Label'
+                        }
+                    }}
+                /> */}
                 <Navbar id="index">
-                    <Header className="h1" style={{backgroundColor: "brown", margin: "25px", padding: "10px", width: "100%"}}>
-                        Christopher O'Connell
+                    <Header className="h1" style={{ whiteSpace: "nowrap", backgroundColor: "brown", margin: "auto 0", padding: "10px", height: "32px" }}>
+                            Christopher O'Connell
                     </Header>
+                    <div className="btn-group" style={{ width: "34%" }}>
+                        <Header className="h3">
+                            <Button href="/about" id="about">
+                                About
+                            </Button>
+                        </Header>
+                        <Header className="h3">
+                            <Button href="/portfolio" id="portfolio">
+                                Portfolio
+                            </Button>
+                        </Header>
+                        <Header className="h3">
+                            <Button href="/contact" id="contact">
+                                Contact
+                            </Button>
+                        </Header>
+                        <Header className="h3">
+                            <Button href="https://bit.ly/2UHhypN" id="resume">
+                                Resume
+                            </Button>
+                        </Header>
+                    </div>
+                    {/* <Header className="h1" style={{ backgroundColor: "brown", margin: "25px", padding: "10px", width: "100%" }}>
+                        Christopher O'Connell
+                    </Header> */}
                 </Navbar>
                 <Jumbotron id="index">
                     <Section id="summary">

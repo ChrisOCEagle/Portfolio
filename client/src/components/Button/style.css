@@ -1,7 +1,7 @@
 .btn-group {
     display: flex;
     justify-content: space-between;
-    width: 16%;
+    width: 25%;
 }
 
 .link {

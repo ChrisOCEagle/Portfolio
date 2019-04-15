@@ -29,6 +29,11 @@ class About extends Component {
                                 Contact
                             </Button>
                         </Header>
+                        <Header className="h3">
+                            <Button href="https://bit.ly/2UHhypN" id="resume">
+                                Resume
+                            </Button>
+                        </Header>
                     </div>
                 </Navbar>
                 <Section id="about-section">

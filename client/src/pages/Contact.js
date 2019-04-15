@@ -28,6 +28,11 @@ class Contact extends Component {
                                 Portfolio
                             </Button>
                         </Header>
+                        <Header className="h3">
+                            <Button href="https://bit.ly/2UHhypN" id="resume">
+                                Resume
+                            </Button>
+                        </Header>
                     </div>
                 </Navbar>
                 <Section id="contact-section">
