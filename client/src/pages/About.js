@@ -42,7 +42,19 @@ class About extends Component {
                         <Image className="about" id="profile-image" src={Portrait} alt="Christopher O'Connell" style={{width: "150px", height: "150px"}}/>
                         <Aside id="background-section">
                             <Paragraph id="background">
-                                I am an Eagle Scout that graduated from college with my B.S. degree in Physics.
+                                I am an Eagle Scout with a Bachelor's of Science degree in Physics,
+                                which means that I persevere through difficult challenges.
+                                Both awards required me to overcome several challenges
+                                such as: organizing and carrying out an Eagle Project to help my local community
+                                or a challenging electricity lab.
+                                I saw through every obstacle in my way to attain both of those awards.
+                                <br/><br/>
+                                I have numerous interests that includes:
+                                photography, mathematics, physics, science, engineering, philosophy, art, general learning and gaming.
+                                My love for learning has kept me searching for new skills to acquire which is precisely why I turned
+                                my attention to computer programming and UCF's Coding Bootcamp.
+                                I am now a <strong>Full Stack Web Developer</strong>.
+                                {/* I am an Eagle Scout that graduated from college with my B.S. degree in Physics.
                                 I have several varied interests that includes the following:
                                 photography, videogaming, tabletop gaming, math, science, engineering,
                                 philosophy, art and general learning.
@@ -50,21 +62,21 @@ class About extends Component {
                                 These varied interests have kept me always looking towards the horizon
                                 as I am definitely a dreamer and my love of learning is my main reason for wanting to learn
                                 computer programming.
-                                So here I am at Coding Bootcamp looking to get into one of the fastest growing fields out there!
+                                So here I am at Coding Bootcamp looking to get into one of the fastest growing fields out there! */}
                             </Paragraph>
                         </Aside>
                     </Section>
                     <Section id="skills-section">
                         <Paragraph id="skills">
-                            Sed quis vestibulum ligula.
-                            Aenean laoreet, neque iaculis lacinia egestas, urna sapien iaculis odio, in pellentesque lorem ante sit amet ante.
-                            Donec et blandit mi. Aliquam eu finibus libero, eget auctor libero. In id orci a enim tincidunt gravida.
-                            Pellentesque maximus enim vel nisi vehicula interdum. Ut eleifend sem non est consequat ornare.
-                            Vivamus non libero eu enim dictum dictum et mollis mi.
-                            Vivamus tincidunt leo nec felis dapibus, lobortis aliquam nisl sollicitudin.
-                            Nunc eget ornare quam. Vestibulum vitae ligula non quam fringilla ultricies.
-                            Etiam commodo, nibh nec fringilla fermentum, justo velit luctus leo, quis convallis est massa eget lacus.
-                            Praesent vitae dolor eu lectus tempus blandit eu ut leo.
+                            Throughout my experiences I have acquired numerous skills, be that technical or non-technical.
+                            For example, while working towards my Eagle Scout award I had to organize an Eagle Project
+                            to help my community. This Project required me to communicate with the organization that I was attempting
+                            to aid while also leading my fellow scouts that assisted me by assigning them specific tasks to complete.
+                            <br/><br/>
+                            While I was in UCF's Coding Bootcamp this past year I was required to complete several projects that
+                            utilized my skills as a web developer, be that actual coding in HTML/CSS/Javascript or just planning out
+                            the project via wireframes and hand-drawn pictures. The skill that I wound up using the most was actually,
+                            my ability to figure things out for myself as that is crucial for debugging code.                            
                         </Paragraph>
                     </Section>
                 </Section>

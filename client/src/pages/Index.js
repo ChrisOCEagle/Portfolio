@@ -59,13 +59,9 @@ class Index extends Component {
                     <Section id="summary">
                         <Image id="profile-image" src={Portrait} alt="Christopher O'Connell" style={{width: "300px"}}/>
                         <Paragraph id="summary">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris nunc sem, aliquet sagittis dolor a, aliquet lacinia justo.
-                            Fusce commodo, leo eu mollis feugiat, magna nisl vulputate diam, ac malesuada leo orci sed ante.
-                            Cras ultrices vulputate justo ut scelerisque. In et egestas nulla.
-                            Sed ac imperdiet sapien, non pellentesque est.
-                            Proin sit amet tincidunt sapien. Donec placerat ipsum vitae dictum posuere.
-                            Sed posuere diam vitae nisi vulputate posuere.
+                            I am an Eagle and Full Stack Web Developer with a Bachelor's of Science degree in Physics.
+                            I have numerous technical and non-technical skills that includes:
+                            Leadership potential, Logical Reasoning, Quick Learning, HTML5, CSS3, and Javascript.
                         </Paragraph>
                     </Section>
                 </Jumbotron>
