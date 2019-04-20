@@ -7,7 +7,7 @@ import Section from '../components/Section';
 import Image from '../components/Image';
 import Paragraph from '../components/Paragraph';
 import Button from '../components/Button';
-import Portrait from '../assets/images/Thinker Portrait.png';
+import Portrait from '../assets/images/Thinker Portrait(update).JPG';
 
 class Index extends Component {
     render() {
@@ -26,10 +26,10 @@ class Index extends Component {
                     }}
                 /> */}
                 <Navbar id="index">
-                    <Header className="h1" style={{ whiteSpace: "nowrap", backgroundColor: "brown", margin: "auto 0", padding: "10px", height: "32px" }}>
+                    <Header className="h1" style={{ whiteSpace: "nowrap", color: "white", backgroundColor: "#ed3330", margin: "auto 0", padding: "10px", height: "32px" }}>
                             Christopher O'Connell
                     </Header>
-                    <div className="btn-group" style={{ width: "34%" }}>
+                    <div className="btn-group" style={{ width: "40%" }}>
                         <Header className="h3">
                             <Button href="/about" id="about">
                                 About
@@ -59,8 +59,8 @@ class Index extends Component {
                     <Section id="summary">
                         <Image id="profile-image" src={Portrait} alt="Christopher O'Connell" style={{width: "300px"}}/>
                         <Paragraph id="summary">
-                            I am an Eagle and Full Stack Web Developer with a Bachelor's of Science degree in Physics.
-                            I have numerous technical and non-technical skills that includes:
+                            I am an Eagle Scout and Full Stack Web Developer with a Bachelor's of Science degree in Physics.
+                            I have numerous technical and non-technical skills that include:
                             Leadership potential, Logical Reasoning, Quick Learning, HTML5, CSS3, and Javascript.
                         </Paragraph>
                     </Section>

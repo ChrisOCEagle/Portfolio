@@ -69,10 +69,10 @@ class About extends Component {
                     <Section id="skills-section">
                         <Paragraph id="skills">
                             Throughout my experiences I have acquired numerous skills, be that technical or non-technical.
-                            For example, while working towards my Eagle Scout award I had to organize an Eagle Project
+                            {/* For example, while working towards my Eagle Scout award I had to organize an Eagle Project
                             to help my community. This Project required me to communicate with the organization that I was attempting
                             to aid while also leading my fellow scouts that assisted me by assigning them specific tasks to complete.
-                            <br/><br/>
+                            <br/><br/> */}<br/>
                             While I was in UCF's Coding Bootcamp this past year I was required to complete several projects that
                             utilized my skills as a web developer, be that actual coding in HTML/CSS/Javascript or just planning out
                             the project via wireframes and hand-drawn pictures. The skill that I wound up using the most was actually,

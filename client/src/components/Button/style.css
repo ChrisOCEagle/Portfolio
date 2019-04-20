@@ -1,23 +1,35 @@
 .btn-group {
     display: flex;
     justify-content: space-between;
-    width: 25%;
+    width: 30%;
 }
 
 .link {
     margin: auto;
     text-decoration: none;
-    color: initial;
-    background-color: aqua;
+    text-transform: uppercase;
+    color: white;
+    background-color: #ed3330;
     padding: 10px;
     text-align: center;
-    border-radius: 5%;
+    border-radius: 5px;
 }
 
-.link:hover {
-    color: purple;
-    background-color: black;
-    text-decoration: underline;
+.link#index {
+    margin: auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    background-color: #ed3330;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.link:hover, .link#index:hover {
+    letter-spacing: 1px;
+    background-color: #434343;
+    border-radius: 50px;
 }
 
 #project-link {
