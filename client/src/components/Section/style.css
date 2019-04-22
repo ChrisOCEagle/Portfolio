@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+p#summary {
+    text-shadow: 1px 1px white;
+}
+
 #about-section {
     display: flex;
     flex-direction: column;

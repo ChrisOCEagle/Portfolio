@@ -56,8 +56,9 @@ class Index extends Component {
                     </Header> */}
                 </Navbar>
                 <Jumbotron id="index">
+                    <div className="bg-image"></div>
                     <Section id="summary">
-                        <Image id="profile-image" src={Portrait} alt="Christopher O'Connell" style={{width: "300px"}}/>
+                        <Image className="index" id="profile-image" src={Portrait} alt="Christopher O'Connell" style={{width: "300px"}}/>
                         <Paragraph id="summary">
                             I am an Eagle Scout and Full Stack Web Developer with a Bachelor's of Science degree in Physics.
                             I have numerous technical and non-technical skills that include:

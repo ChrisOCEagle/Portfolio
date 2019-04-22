@@ -1,7 +1,20 @@
 .jumbotron {
+    position: relative;
     padding: 50px;
     text-align: center;
     max-width: 100%;
     margin: 25px;
-    background-color: darkolivegreen;
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url('../../assets/images/Math Coding Background.jpg');
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: luminosity;
+    z-index: -1;
+    opacity: 0.2;
 }

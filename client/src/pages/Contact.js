@@ -8,6 +8,22 @@ import Input from '../components/Input';
 import Label from '../components/Label';
 
 class Contact extends Component {
+    state = {
+        name: "",
+        emailAddress: "",
+        message: "",
+    };
+
+    _handleFormSubmit = event => {
+        event.preventDefault();
+        console.log("Here is some form data");
+    };
+
+    _handleChange = async(event) => {
+        const { name, value } = event.target;
+        await this.setState({ [name]: value });
+    };
+
     render() {
         return(
             <div className="contact">
@@ -37,21 +53,21 @@ class Contact extends Component {
                 </Navbar>
                 <Section id="contact-section">
                     <Header className="h2" style={{textDecoration: 'underline'}}>Contact</Header>
-                    <Form className="contact-form" action="" method="">
+                    <Form className="contact-form">
                         <div className="form-group">
                             <Label className="label" htmlFor="name" children="Name"/><br/>
-                            <Input className="text-input" type="text" name="name" placeholder="Firstname Lastname"/>
+                            <Input className="text-input" type="text" name="name" placeholder="Firstname Lastname" handleChange={this._handleChange}/>
                         </div>
                         <div className="form-group">
                             <Label className="label" htmlFor="email" children="Email"/><br/>
-                            <Input className="text-input" type="email" name="email" placeholder="email@email-address.com"/>
+                            <Input className="text-input" type="email" name="email" placeholder="email@email-address.com" handleChange={this._handleChange}/>
                         </div>
                         <div className="form-group">
                             <Label className="label" htmlFor="message" children="Message"/><br/>
-                            <Input className="text-input" type="textarea" name="message" rows="10" placeholder="Here is some example text."/>
+                            <Input className="text-input" type="textarea" name="message" rows="10" placeholder="Here is some example text." handleChange={this._handleChange}/>
                         </div>
                         <div className="form-group" id="form-control">
-                            <Button type="submit" clickEvent={() => {}}>Submit</Button>
+                            <Button type="submit" clickEvent={this._handleFormSubmit}>Submit</Button>
                         </div>
                     </Form>
                 </Section>
