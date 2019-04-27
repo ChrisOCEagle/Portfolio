@@ -22,6 +22,7 @@ class Contact extends Component {
     _handleChange = async(event) => {
         const { name, value } = event.target;
         await this.setState({ [name]: value });
+        console.log(this.state);
     };
 
     render() {
@@ -56,15 +57,15 @@ class Contact extends Component {
                     <Form className="contact-form">
                         <div className="form-group">
                             <Label className="label" htmlFor="name" children="Name"/><br/>
-                            <Input className="text-input" type="text" name="name" placeholder="Firstname Lastname" handleChange={this._handleChange}/>
+                            <Input className="text-input" type="text" name="name" placeholder="John Smith" handleChange={this._handleChange}/>
                         </div>
                         <div className="form-group">
                             <Label className="label" htmlFor="email" children="Email"/><br/>
-                            <Input className="text-input" type="email" name="email" placeholder="email@email-address.com" handleChange={this._handleChange}/>
+                            <Input className="text-input" type="email" name="email" placeholder="john.smith@email.com" handleChange={this._handleChange}/>
                         </div>
                         <div className="form-group">
                             <Label className="label" htmlFor="message" children="Message"/><br/>
-                            <Input className="text-input" type="textarea" name="message" rows="10" placeholder="Here is some example text." handleChange={this._handleChange}/>
+                            <Input className="text-input" type="textarea" name="message" rows="10" placeholder="Here is an email message from John Smith." handleChange={this._handleChange}/>
                         </div>
                         <div className="form-group" id="form-control">
                             <Button type="submit" clickEvent={this._handleFormSubmit}>Submit</Button>

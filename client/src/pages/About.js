@@ -39,7 +39,7 @@ class About extends Component {
                 <Section id="about-section">
                     <Header className="h2" style={{textDecoration: 'underline'}}>About</Header>
                     <Section id="image-background-section">
-                        <Image className="about" id="profile-image" src={Portrait} alt="Christopher O'Connell" style={{width: "150px", height: "150px"}}/>
+                        <Image className="about" id="profile-image" src={Portrait} alt="Christopher O'Connell"/>
                         <Aside id="background-section">
                             <Paragraph id="background">
                                 I am an Eagle Scout with a Bachelor's of Science degree in Physics,

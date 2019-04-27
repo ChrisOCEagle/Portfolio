@@ -133,7 +133,7 @@ class Portfolio extends Component {
                                 <div className="hex-top"></div>
                                 <div className="hex-bottom"></div>
                             </Button>
-                            <div className="label github-link" style={{width: "100%", display: "flex", justifyContent: "space-around"}}>
+                            <div className="label-github-link">
                                 <Label className="label" htmlFor={project.id} children={project.alt}/>
                                 <Button href={project.github} id="github-link">
                                     <Image
