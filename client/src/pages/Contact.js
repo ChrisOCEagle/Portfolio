@@ -6,23 +6,29 @@ import Section from '../components/Section';
 import Form from '../components/Form';
 import Input from '../components/Input';
 import Label from '../components/Label';
+import API from '../utils/API';
 
 class Contact extends Component {
     state = {
         name: "",
-        emailAddress: "",
+        email: "",
         message: "",
     };
 
     _handleFormSubmit = event => {
         event.preventDefault();
-        console.log("Here is some form data");
+        var data;
+        if (this.state.name !== "" && this.state.email !== "" && this.state.message !== "") {
+            data = this.state;
+        };
+        API.email(data ? data : "undefined")
+        .then(response => console.log(response))
+        .catch(err => console.log(err));
     };
 
     _handleChange = async(event) => {
         const { name, value } = event.target;
         await this.setState({ [name]: value });
-        console.log(this.state);
     };
 
     render() {
