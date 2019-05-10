@@ -7,6 +7,7 @@ import Image from '../components/Image';
 import Aside from '../components/Aside';
 import Paragraph from '../components/Paragraph';
 import Portrait from '../assets/images/Thinker Portrait.png';
+import Footer from '../components/Footer';
 
 class About extends Component {
     render() {
@@ -80,6 +81,7 @@ class About extends Component {
                         </Paragraph>
                     </Section>
                 </Section>
+                <Footer id="footer">Contact me at chris.webdeveloper@yahoo.com</Footer>
             </div>
         );
     };

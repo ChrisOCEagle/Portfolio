@@ -7,6 +7,7 @@ import Form from '../components/Form';
 import Input from '../components/Input';
 import Label from '../components/Label';
 import API from '../utils/API';
+import Footer from '../components/Footer';
 
 class Contact extends Component {
     state = {
@@ -87,6 +88,7 @@ class Contact extends Component {
                         </div>
                     </Form>
                 </Section>
+                <Footer id="footer">Contact me at chris.webdeveloper@yahoo.com</Footer>
             </div>
         );
     };

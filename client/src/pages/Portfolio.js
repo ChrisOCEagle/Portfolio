@@ -7,6 +7,7 @@ import Image from '../components/Image';
 import Label from '../components/Label';
 import Sources from '../assets/images.js';
 import Github from '../assets/images/github.svg';
+import Footer from '../components/Footer';
 import './style.css';
 
 const projects = [
@@ -154,6 +155,7 @@ class Portfolio extends Component {
                         </div>
                     ))}
                 </Section>
+                <Footer id="footer">Contact me at chris.webdeveloper@yahoo.com</Footer>
             </div>
         );
     };

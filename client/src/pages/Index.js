@@ -8,6 +8,7 @@ import Image from '../components/Image';
 import Paragraph from '../components/Paragraph';
 import Button from '../components/Button';
 import Portrait from '../assets/images/Thinker Portrait(update).JPG';
+import Footer from '../components/Footer';
 
 class Index extends Component {
     render() {
@@ -71,6 +72,7 @@ class Index extends Component {
                         Learn More
                     </Button>
                 </div>
+                <Footer id="footer">Contact me at chris.webdeveloper@yahoo.com</Footer>
             </div>
         );
     };
