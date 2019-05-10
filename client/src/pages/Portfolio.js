@@ -87,6 +87,13 @@ const projects = [
         id: 'writespire',
         github: 'https://github.com/ChrisOCEagle/Story-Inspiration',
     },
+    {
+        src: Sources['clock'],
+        alt: 'javascript clock',
+        link: 'https://chrisoceagle.github.io/Clock/',
+        id: 'javascript clock',
+        github: 'https://github.com/ChrisOCEagle/Clock',
+    },
     // {
     //     src: 'https://via.placeholder.com/150',
     //     alt: '150x150 pixels',
