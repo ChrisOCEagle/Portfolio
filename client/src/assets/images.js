@@ -9,7 +9,7 @@ import Physics from '../assets/images/physics.png';
 import Pokemon from '../assets/images/PokemonTheme.png';
 import Train from '../assets/images/Train.png';
 import WriteSpire from '../assets/images/WriteSpire.png';
-import Clock from './images/Clock.png';
+import Clock from './images/Clock.PNG';
 
 export default {
     "word-guess": WordGuess,
